@@ -13,3 +13,25 @@ h2 {
     color: #333;
     padding: 20px 0;
 }
+
+/* Custom Styling */
+.navbar {
+    padding: 20px;
+}
+  
+.navbar-brand {
+    font-weight: bold;
+}
+  
+.nav-link {
+    color: #333;
+    font-size: 18px;
+}
+  
+.nav-link:hover {
+    color: #007bff;
+}
+  
+.navbar-toggler {
+    border-color: #007bff;
+}
