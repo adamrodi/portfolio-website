@@ -32,7 +32,7 @@
         height: fit-content;
     }
     section {
-        margin: 0 5%;
+        margin: 0 5%; 
     }
     .section__pic-container {
         height: 275px;
@@ -41,6 +41,9 @@
     }
     .about-containers {
         margin-top: 0;
+    }
+    #projects {
+        margin-top: 25vh;
     }
 }
 

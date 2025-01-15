@@ -67,7 +67,7 @@ a:hover {
     cursor: default;
 }
 
-/* Hambuger Menu */
+/* Hamburger Menu */
 
 #hamburger-nav {
     display: none;
@@ -120,6 +120,13 @@ a:hover {
 
 .menu-links.open {
     max-height: 300px;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181, 181);
 }
 
 .hamburger-icon.open span:first-child {
@@ -237,6 +244,7 @@ section {
 .btn-color-1:hover, 
 .btn-color-2:hover {
     cursor: pointer;
+    border: rgb(255, 255, 255) 0.1rem solid;
 }
 
 .btn-color-1, 
@@ -253,10 +261,6 @@ section {
     background: none;
 }
 
-.btn-color-2:hover {
-    border: rgb(255, 255, 255) 0.1rem solid;
-}
-
 .btn-container {
     gap: 1rem;
 }
@@ -265,6 +269,7 @@ section {
 
 #about {
     position: relative;
+    height: 80vh;
 }
 
 .about-containers {
@@ -357,6 +362,7 @@ article .icon {
 
 #projects {
     position: relative;
+    height: 80vh;
 }
 
 .color-container {
@@ -375,9 +381,12 @@ article .icon {
     color: black;
 }
 
-.project-btn {
-    color: black;
+.project-btn.btn-color-2 {
     border-color: rgb(163, 163, 163);
+}
+
+.project-btn.btn-color-2:hover {
+    border-color: rgb(255, 255, 255);
 }
 
 /* Contact Section */
